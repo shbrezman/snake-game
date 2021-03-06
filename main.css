@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+   background-color: #9f80ff;
+}
+#snake{
+    margin-top: -10px;
+    margin-left: 30%;
+}
+.header{
+    font-family: 'Righteous', cursive;
+    
+    
+    margin-top: 20px;
+    font-size: 3rem;
+    color:#80ff80;
+   
+}
+.snakeImg{
+    margin-left: 70%;
+    margin-top: -680px;
+    position:absolute;
+    height: 630px;
+    width: 435px;
+    background-image: url('snake.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.startBtn{
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-right: 73%;
+    margin-top: -600;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 2.8rem;
+    font-family: 'Righteous', cursive;
+    color: green;
+    
+    outline: none;
+    border: 2px solid red;
+    border-bottom: black;
+    border-right: black;
+box-shadow: 2px 2px #001221 ;
+cursor: pointer;
+}
+
+.instructionsBtn{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-right: 73%;
+    margin-top: -300;
+    border-radius: 50%;
+    background-color: green;
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+    color: red;
+    border:1px solid red;
+    outline: none;
+    border: 2px solid green;
+    border-bottom: black;
+    border-right: black;
+box-shadow: 2px 2px #001221 ;
+cursor: pointer;
+}
+.startBtn:active,.instructionsBtn:active{
+    box-shadow: none;
+}
+
+.startBtn:hover,.instructionsBtn:hover{
+    
+    color: white;
+}
+.instructionsP{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    color: goldenrod;
+}
+.instructions{
+    background-color: rgba(100, 6, 6, 0.95);
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    margin-top: -600px;
+    padding: 20px;
+    display: none;
+}
